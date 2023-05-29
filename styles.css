@@ -1,0 +1,124 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color:rgb(234, 240, 245)
+}
+
+.container {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.Reply-container {
+    margin-left: 10%;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.likeCounts {
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: mediumslateblue;
+}
+
+.likes {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color:rgb(234, 240, 245);
+}
+
+.Name-active {
+    display: flex;
+}
+
+.profileicon {
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.account-bold {
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.active-gray {
+    padding-left: 7px;
+    padding-right: 7px;
+    color: gray;
+}
+
+.reply-mediumslateblue {
+    color: mediumslateblue;
+    font-weight: bold;}
+
+.replyimg {
+    color: mediumslateblue;
+    margin-left: auto;
+    height: 15px;
+    padding-top: 18px;
+    padding-right: 5px;
+}
+
+.comment-box {
+    margin-left: 40px;
+}
+
+.voteup {
+    color: mediumslateblue;
+}
+
+.votedown {
+    color: mediumslateblue;
+}
+
+.addCommentContainer {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+input {
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+#sendComment {
+    margin-left: auto;
+}
+
+#send-Btn {
+    color: white;
+    background-color: mediumslateblue;
+}
+
+
+
+/* Stays ath the bottom of the page */
+.attribution {
+    margin: 0;
+    padding: 5px;
+    height: 5px;
+    bottom: 0px
+}
